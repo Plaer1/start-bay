@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#c4c5ee"/>
+      <stop offset="0.46" stop-color="#7778ab"/>
+      <stop offset="1" stop-color="#494873"/>
+    </linearGradient>
+    <linearGradient id="symbol" x1="0" y1="4" x2="0" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#c9d1db"/>
+    </linearGradient>
+    <pattern id="dither" width="2" height="2" patternUnits="userSpaceOnUse">
+      <path d="M0 0h1v1H0zm1 1h1v1H1z" fill="#25233c"/>
+    </pattern>
+  </defs>
+  <rect x="1.2" y="1.2" width="21.6" height="21.6" rx="3.6"
+        fill="url(#badge)" stroke="#35365c" stroke-width="1.15"/>
+  <path d="M2.7 12h18.6v6.6a2.7 2.7 0 0 1-2.7 2.7H5.4a2.7 2.7 0 0 1-2.7-2.7z"
+        fill="url(#dither)" opacity="0.21"/>
+  <path d="M3.1 17.5V5.7a2.6 2.6 0 0 1 2.6-2.6h12.6" fill="none" stroke="#fff" opacity="0.58"/>
+  <path d="M5.7 20.9h12.6a2.6 2.6 0 0 0 2.6-2.6V6.5" fill="none" stroke="#232538" opacity="0.45"/>
+  <g>
+    <path d="M6 8.2h9.5l-5.1 5.8h5.1v2.6H5.7l5.1-5.8H6z
+             M17 15h5.6l-2.7 3.4h2.7v1.9h-6.1l2.7-3.4H17z"
+          fill="url(#symbol)" stroke="#2c2d50" stroke-width="0.95" stroke-linejoin="round"/>
+  </g>
+</svg>

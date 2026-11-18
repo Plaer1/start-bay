@@ -1,0 +1,13 @@
+# Local workflow state
+.clanker/
+.claude/
+.mimocode/
+.mimocode-project-id
+AGENTS.md
+CLAUDE.md
+MEATBAGS.md
+
+# Local credentials and package outputs
+.env
+.env.*
+*.plasmoid

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Original Start Bay artwork drawing on the Open Clank eye and KDE K gear. -->
+  <defs>
+    <linearGradient id="body" x2="0.25" y2="1">
+      <stop stop-color="#24507c"/>
+      <stop offset="1" stop-color="#102038"/>
+    </linearGradient>
+  </defs>
+  <path d="M24 3h10l2 7 6 2 6-4 8 8-4 6 2 6 7 2v10l-7 2-2 6 4 6-8 7-6-4-6 2-2 3H24l-2-6-6-2-6 3-7-7 4-6-2-7-3-2V25l6-2 3-6-4-6 7-7 6 4 4-2Z"
+        fill="url(#body)" stroke="#72cdfd" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M14 18h36L32 49Z" fill="#0e1d32" stroke="#a1e7ff" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M20 29Q32 15 44 29 32 43 20 29Z" fill="#ecfaff"/>
+  <circle cx="32" cy="29" r="6.4" fill="#2878b4"/>
+  <path d="M30 24v10m0-4 5-6m-5 6 5 4" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="14" cy="13" r="2.5" fill="#ff645a"/>
+  <circle cx="51" cy="13" r="2.5" fill="#a9db52"/>
+  <circle cx="13" cy="47" r="2.5" fill="#52b8ff"/>
+  <circle cx="51" cy="47" r="2.5" fill="#ffc155"/>
+</svg>

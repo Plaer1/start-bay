@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffc1a8"/>
+      <stop offset="0.46" stop-color="#f35243"/>
+      <stop offset="1" stop-color="#c52227"/>
+    </linearGradient>
+    <linearGradient id="symbol" x1="0" y1="4" x2="0" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#fff0ce"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.2" y="1.2" width="21.6" height="21.6" rx="5.3"
+        fill="url(#badge)" stroke="#9c181c" stroke-width="1.15"/>
+  <path d="M4 10V6a2.8 2.8 0 0 1 2.8-2.8h10.4A2.8 2.8 0 0 1 20 6v4
+           c-4.8 1.8-11.2 1.8-16 0z" fill="#fff" opacity="0.24"/>
+  <path d="M5 8V6.7A2.4 2.4 0 0 1 7.4 4.3h9.2" fill="none" stroke="#fff" opacity="0.57" stroke-linecap="round"/>
+  <g>
+    <path d="M8.5 8.15a6.4 6.4 0 1 0 7 0M12 5.9v6.3"
+          fill="none" stroke="#681419" stroke-width="3.9" stroke-linecap="round"/>
+    <path d="M8.5 8.15a6.4 6.4 0 1 0 7 0M12 5.9v6.3"
+          fill="none" stroke="url(#symbol)" stroke-width="2.65" stroke-linecap="round"/>
+  </g>
+</svg>

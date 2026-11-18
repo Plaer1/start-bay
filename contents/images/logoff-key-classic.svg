@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f2d29f"/>
+      <stop offset="0.46" stop-color="#c09453"/>
+      <stop offset="1" stop-color="#8a6436"/>
+    </linearGradient>
+    <linearGradient id="symbol" x1="0" y1="4" x2="0" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#c9d1db"/>
+    </linearGradient>
+    <pattern id="dither" width="2" height="2" patternUnits="userSpaceOnUse">
+      <path d="M0 0h1v1H0zm1 1h1v1H1z" fill="#25233c"/>
+    </pattern>
+  </defs>
+  <rect x="1.2" y="1.2" width="21.6" height="21.6" rx="3.6"
+        fill="url(#badge)" stroke="#684720" stroke-width="1.15"/>
+  <path d="M2.7 12h18.6v6.6a2.7 2.7 0 0 1-2.7 2.7H5.4a2.7 2.7 0 0 1-2.7-2.7z"
+        fill="url(#dither)" opacity="0.21"/>
+  <path d="M3.1 17.5V5.7a2.6 2.6 0 0 1 2.6-2.6h12.6" fill="none" stroke="#fff" opacity="0.58"/>
+  <path d="M5.7 20.9h12.6a2.6 2.6 0 0 0 2.6-2.6V6.5" fill="none" stroke="#232538" opacity="0.45"/>
+  <g>
+    <path d="M8.4 6.25c2.1 0 3.85 1.08 4.7 2.9h8.4v3.45h-2.2v2.7h-2.85v-2.7h-3.25
+             c-.7 2.18-2.6 3.67-4.8 3.67a5.01 5.01 0 0 1 0-10.02z
+             m0 2.76a2.24 2.24 0 1 0 0 4.48 2.24 2.24 0 0 0 0-4.48z"
+          fill="url(#symbol)" fill-rule="evenodd" stroke="#4e3416" stroke-width="1.05" stroke-linejoin="round"/>
+  </g>
+</svg>
